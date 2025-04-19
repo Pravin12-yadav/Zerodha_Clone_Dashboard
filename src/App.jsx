@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Home from "./component/Home"
 import {Route,Routes, useNavigate} from "react-router-dom";
-import Login from "../../frontend/src/Login.jsx";
+import Login from "../../frontend/src/login.jsx";
 import {ToastContainer} from "react-toastify";
 import { handleSuccess } from "../../frontend/src/Util";
 function App() {
